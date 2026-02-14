@@ -1,12 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @import "tailwindcss";
 
 * {
-     font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .container1 {
-    max-width: 1394px;
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 1394px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
+
+.craft {
+  background: linear-gradient(
+    90deg,
+    rgba(33, 252, 255, 1) 0%,
+    rgba(253, 64, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: black;
+}
+
