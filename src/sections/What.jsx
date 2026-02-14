@@ -11,9 +11,9 @@ const What = () => {
       <div className="container1">
         <Title title={"Our resources"} text={"What we do"} />
 
-        <div className="grid grid-cols-2 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center">
           <div className="flex items-center">
-            <div className="bg-[url(/lines.png)] flex flex-col items-center gap-5  border-l-9 p-[50px] border-[#BF3AFF] max-w-[753px]">
+            <div className="bg-[url(/lines.png)] flex flex-col items-center gap-5  border-l-9 p-[20px] md:p-[50px] border-[#BF3AFF] max-w-[753px]">
               <img src="Logo2.png" alt="" />
               <h1 className="text-white text-[clamp(1.625rem,1.0357rem+2.4176vw,3rem)] font-bold">
                 About toKen $Cmeta
