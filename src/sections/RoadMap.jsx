@@ -1,14 +1,12 @@
 import RoadMapText from "../components/RoadMapText";
 import Krug from "../ui/Krug";
+import Title from "../ui/Title";
 
 const RoadMap = () => {
   return (
     <div className="bg-[#090812] py-[100px]">
       <div className="container1">
-        <div className="text-white text-center p-5">
-          <p className="uppercase text-[18px] leading-[18px]">Our Way</p>
-          <h1 className="uppercase text-[45px] font-bold">Roadmap</h1>
-        </div>
+        <Title title={'Roadmap'} text={'Our Way'}/>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[100px] py-[50px]">
           <div className="flex flex-col-reverse items-end md:flex-row gap-[50px]">
