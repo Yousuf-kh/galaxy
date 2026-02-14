@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <div className="md:h-[1000px] h-[844px] bg-[#01001F] md:bg-[url(/bg-about.png)] bg-center">
