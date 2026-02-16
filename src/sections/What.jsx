@@ -35,7 +35,7 @@ const What = () => {
         spaceBetween={5}
         centeredSlides={true}
         modules={[FreeMode, Autoplay]}
-        className="mySwiper border-t-4 border-b-4 border-amber-50 rotate-[-10deg] w-[150%] bg-[url(/lines.png)] bg-contain"
+        className="mySwiper transform translate-x-[-10%] border-t-4 border-b-4 border-amber-50 rotate-[-10deg] w-[150%] bg-[url(/lines.png)] bg-contain"
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
@@ -60,7 +60,7 @@ const What = () => {
         spaceBetween={5}
         centeredSlides={true}
         modules={[FreeMode, Autoplay]}
-        className="mySwiper border-t-4 border-b-4 border-amber-50 rotate-[-10deg] w-[150%]"
+        className="mySwiper border-t-4 transform translate-x-[-10%] border-b-4 border-amber-50 rotate-[-10deg] w-[150%]"
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
