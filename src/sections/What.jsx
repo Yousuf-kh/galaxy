@@ -69,12 +69,12 @@ const What = () => {
         loop={true}
         allowTouchMove={false}
       >
-        <SwiperSlide>
+        <SwiperSlide className="bg-black">
           <h1 className="craft text-[clamp(1.25rem,0.0532rem+5.3191vw,4.6875rem)] whitespace-nowrap font-bold flex">
             CRAFTY METAVERSE      CRAFTY METAVERSE      CRAFTY METAVERSE <img src="/plain.svg" alt="plain" />
           </h1>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="bg-black">
           <h1 className="craft text-[clamp(1.25rem,0.0532rem+5.3191vw,4.6875rem)] whitespace-nowrap font-bold flex">
             CRAFTY METAVERSE      CRAFTY METAVERSE      CRAFTY METAVERSE <img src="/plain.svg" alt="plain" />
           </h1>
